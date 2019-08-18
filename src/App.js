@@ -23,7 +23,7 @@ export default class App extends Component {
 						<Sidebar />
 					</Col>
 
-					<Col xs='12' md='9'>
+					<Col xs='12' md='9' className='p-0'>
 						<Switch>
 							<Route exact path='/' component={Home} />
 
