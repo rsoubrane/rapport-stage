@@ -29,8 +29,8 @@ export default class App extends Component {
 
 							<Route exact path='/profile' component={Profile} />
 							<Route exact path='/enterprise' component={Enterprise} />
-							<Route exact path='/projects' component={Project} />
-							<Route exact path='/projects/:id' component={ProjectDetails} />
+							<Route exact path='/timeline' component={Project} />
+							<Route exact path='/timeline/:id' component={ProjectDetails} />
 							<Route exact path='/review' component={Review} />
 						</Switch>
 					</Col>
