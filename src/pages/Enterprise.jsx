@@ -1,5 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 
-export default function Enterprise() {
-	return <div />;
+export default class Enterprise extends Component {
+	render() {
+		return <div />;
+	}
 }
