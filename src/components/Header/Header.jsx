@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 
-import { Container, Row, Col } from "reactstrap";
-
 import "../../assets/styles/Header.css";
 
 export default class Header extends Component {
