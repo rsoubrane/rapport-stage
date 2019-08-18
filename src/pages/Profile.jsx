@@ -11,7 +11,7 @@ export default class Profile extends Component {
 	render() {
 		return (
 			<main>
-				<Header title={"Profile"} />
+				<Header title='Profile' />
 				<Container className='card-section'>
 					<Container className='section-title mb-0'>
 						<ProfileCard />
