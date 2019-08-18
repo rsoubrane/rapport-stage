@@ -12,8 +12,12 @@ export default class Profile extends Component {
 		return (
 			<main>
 				<Header title={"Profile"} />
-				<ProfileCard />
-				<ProfileDetails />
+				<Container className='card-section'>
+					<Container className='section-title mb-0'>
+						<ProfileCard />
+						<ProfileDetails />
+					</Container>
+				</Container>
 			</main>
 		);
 	}
