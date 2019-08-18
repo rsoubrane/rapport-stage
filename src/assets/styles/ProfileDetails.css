@@ -1,0 +1,29 @@
+.bs-callout {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background-color: #e9ecef;
+	color: black;
+	border-color: #eee;
+	border-image: none;
+	border-radius: 3px;
+	border-style: solid;
+	width: 100%;
+	border-width: 1px 1px 1px 5px;
+	margin: 10px auto 25px;
+	padding: 20px;
+}
+
+.bs-callout h4 {
+	margin-bottom: 15px;
+	margin-top: 0;
+}
+
+.bs-callout-danger {
+	border-left-color: #d9534f;
+}
+
+.bs-callout-danger h4 {
+	color: #d9534f;
+}
