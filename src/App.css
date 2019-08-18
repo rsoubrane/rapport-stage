@@ -9,3 +9,44 @@ html {
 	padding: 0;
 	color: black;
 }
+
+.row {
+	margin: 0;
+}
+
+.sidebar {
+	height: 100vh;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	left: 0;
+	margin: 0;
+	background-color: #bd5d38 !important;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+	transition: all 0.4s;
+}
+
+.bg-light {
+	width: 100%;
+}
+
+@media (max-width: 576px) {
+	.bg-light {
+		display: none !important;
+	}
+}
+@media (max-width: 768px) {
+	.bg-light {
+		height: 100%;
+		padding-bottom: 0 !important;
+		margin-bottom: 0 !important;
+	}
+	.sidebar {
+		height: 100%;
+	}
+}
+@media (max-width: 1200px) {
+	.sidebar-header {
+		text-align: center;
+	}
+}
