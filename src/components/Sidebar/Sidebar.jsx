@@ -48,9 +48,9 @@ export default class Sidebar extends Component {
 								</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href='/projects' className='text-white'>
+								<NavLink href='/timeline' className='text-white'>
 									<i className='fa fa-cubes fa-fw mr-3' />
-									Projects
+									Timeline
 								</NavLink>
 							</NavItem>
 							<NavItem>
