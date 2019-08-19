@@ -19,7 +19,7 @@ export default class Sidebar extends Component {
 											src={profile}
 											alt='...'
 											width='100'
-											className='rounded-circle img-thumbnail shadow-sm'
+											className='rounded-circle img-thumbnail shadow-sm text-center'
 										/>
 									</Link>
 								</Col>
@@ -34,35 +34,25 @@ export default class Sidebar extends Component {
 						</div>
 					</Col>
 					<Col xs='12' sm='6' md='12' className='p-0'>
-						<Nav className='flex-column text-white mb-0 text-uppercase'>
+						<Nav className='d-flex flex-column align-items-center justify-content-center text-uppercase'>
 							<NavItem>
 								<NavLink href='/profile' className='text-white'>
-									<i className='fa fa-address-card fa-fw mr-3' />
-									Profile
+									<h3>Profile</h3>
 								</NavLink>
 							</NavItem>
 							<NavItem>
 								<NavLink href='/enterprise' className='text-white'>
-									<i className='fa fa-address-card fa-fw mr-3' />
-									Enterprise
+									<h3>Enterprise</h3>
 								</NavLink>
 							</NavItem>
 							<NavItem>
 								<NavLink href='/timeline' className='text-white'>
-									<i className='fa fa-cubes fa-fw mr-3' />
-									Timeline
+									<h3>Timeline</h3>
 								</NavLink>
 							</NavItem>
 							<NavItem>
 								<NavLink href='/review' className='text-white'>
-									<i className='fa fa-cubes fa-fw mr-3' />
-									Review
-								</NavLink>
-							</NavItem>
-							<NavItem>
-								<NavLink href='/contact' className='text-white'>
-									<i className='fa fa-cubes fa-fw mr-3' />
-									Contact
+									<h3>Review</h3>
 								</NavLink>
 							</NavItem>
 						</Nav>
