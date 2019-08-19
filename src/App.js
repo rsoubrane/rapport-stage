@@ -7,8 +7,7 @@ import { Row, Col } from "reactstrap";
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import Enterprise from "./pages/Enterprise";
-import Project from "./pages/Project";
-import ProjectDetails from "./pages/ProjectDetails";
+import Timeline from "./pages/Timeline";
 import Review from "./pages/Review";
 
 import Sidebar from "./components/Sidebar/Sidebar";
@@ -50,9 +49,8 @@ export default class App extends Component {
 							<Route
 								exact
 								path='/timeline'
-								component={() => <Project timeline={this.state.timeline} />}
+								component={() => <Timeline timeline={this.state.timeline} />}
 							/>
-							<Route exact path='/timeline/:id' component={ProjectDetails} />
 							<Route exact path='/review' component={Review} />
 						</Switch>
 					</Col>

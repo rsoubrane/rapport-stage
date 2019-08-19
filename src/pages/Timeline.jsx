@@ -6,7 +6,8 @@ import Header from "../components/Header/Header";
 import TimelineItem from "../components/Timeline/TimelineItem";
 
 import "../assets/styles/Timeline.css";
-export default class Project extends Component {
+
+export default class Timeline extends Component {
 	constructor(props) {
 		super(props);
 

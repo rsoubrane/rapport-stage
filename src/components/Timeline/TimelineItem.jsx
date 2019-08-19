@@ -3,12 +3,9 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 import Carrousel from "../Carrousel/Carrousel";
-import "../../assets/styles/Carrousel.css";
 
 export default class TimelineItem extends Component {
 	render() {
-		console.log(this.props.languages);
-
 		return (
 			<main>
 				<li className='timeline-item bg-white rounded ml-3 p-4 shadow'>
