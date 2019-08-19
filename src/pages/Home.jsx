@@ -1,30 +1,19 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from "react";
 
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, Jumbotron } from "reactstrap";
 import { Link } from "react-router-dom";
+
+import Header from "../components/Header/Header";
 
 import rooftop from "../assets/medias/rooftop.jpg";
 export default class Home extends Component {
 	render() {
 		return (
 			<main>
-				<div className='w-100 p-3 p-md-5 text-white bg-dark page-header'>
-					<Col md='6' className='px-0'>
-						<h1 className='display-4 font-italic'>Rapport de stage</h1>
-						<p className='lead my-3'>
-							Le récit incroyable d'un stage très épanouissant dans l'un des plus grands cabinets de
-							conseils en transformation digitale, localisé à 2 pas de la Tour Eiffel ..
-						</p>
-						<p className='lead mb-0'>
-							<Link to='/timeline' className='text-white font-weight-bold'>
-								En lire plus...
-							</Link>
-						</p>
-					</Col>
-				</div>
+				<Header title='Rapport de stage' />
 
-				<Container role='main'>
+				<Container>
 					<Row>
 						<Col md='8' className='blog-main'>
 							<div className='blog-post'>
@@ -59,8 +48,11 @@ export default class Home extends Component {
 							<div className='p-3 mb-3 bg-light rounded'>
 								<h4 className='font-italic'>About</h4>
 								<p className='mb-0'>
-									Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur
-									purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+									Le récit incroyable d'un stage très épanouissant dans l'un des plus grands cabinets
+									de conseils en transformation digitale, localisé à 2 pas de la Tour Eiffel ..
+								</p>
+								<p className='mb-0'>
+									<Link to='/timeline'>En lire plus...</Link>
 								</p>
 							</div>
 

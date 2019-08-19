@@ -26,6 +26,10 @@ html {
 	transition: all 0.4s;
 }
 
+.nav-item {
+	flex: 1;
+}
+
 .bg-light {
 	width: 100%;
 }

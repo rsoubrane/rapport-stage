@@ -2,8 +2,12 @@
 	background: url("../medias/bg.jpg") no-repeat;
 	position: relative;
 	background-size: cover;
-    width: 100%;
-    margin-bottom: 20px;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 20px;
+}
+.test {
+	z-index: 10000;
 }
 .page-caption {
 	padding-top: 170px;
@@ -16,7 +20,6 @@
 	font-weight: 600;
 	text-align: center;
 }
-
 .card-section {
 	position: relative;
 	bottom: 60px;
