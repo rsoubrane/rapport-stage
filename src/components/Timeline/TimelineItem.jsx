@@ -23,9 +23,9 @@ export default class TimelineItem extends Component {
 
 					<p className='text-small mt-2 font-weight-light'>{this.props.paragraph2}</p>
 					<div>
-						{this.props.languages ? <p className='card-text mt-2 mb-1'>Missions :</p> : null}
+						{this.props.missions ? <p className='card-text mt-2 mb-1'>Missions :</p> : null}
 						<ul>
-							{this.props.languages
+							{this.props.missions
 								? this.props.missions.map((item, key) => <li key={key}>{item}</li>)
 								: null}
 						</ul>
