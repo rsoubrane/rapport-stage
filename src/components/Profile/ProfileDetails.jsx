@@ -37,7 +37,7 @@ export default class ProfileDetails extends Component {
 				</table>
 				<p className='my-4'>
 					A <strong>l’ESD</strong> j’ai appris 3 principes fondamentaux : La création, le business/marketing
-					et le développement. Ces principes permettent a la fois de concevoir graphiquement, de savoir vendre
+					et le développement. Ces principes permettent à la fois de concevoir graphiquement, de savoir vendre
 					mais également de savoir développer un produit ou une idée. J'ai un profil beaucoup plus technique,
 					préférant le développement, mais j'apprécie également le marketing et je ne suis pas contre l'UI/UX
 					Design. Cependant la création n'est pas forcément mon fort. Ce que j'affectione particulièrement
@@ -45,7 +45,7 @@ export default class ProfileDetails extends Component {
 					rechargement de page : on est au cœur des modifications.
 				</p>
 				<p className='my-4'>
-					En parallèle a mes études, j’ai pris en passion le monde du jeu vidéo. Plus particulièrement
+					En parallèle à mes études, j’ai pris en passion le monde du jeu vidéo. Plus particulièrement
 					l’esport et tout le business qui l’entoure.
 				</p>
 			</Jumbotron>
