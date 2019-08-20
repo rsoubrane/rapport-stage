@@ -32,32 +32,22 @@ export default class Sidebar extends Component {
 				</NavItem>
 
 				<NavItem className='d-block'>
-					<Row className='h-100 flex-column align-items-center justify-content-center text-uppercase text-center'>
-						<NavItem>
-							<Link to='/' className='text-white'>
-								<h3>Home</h3>
-							</Link>
-						</NavItem>
-						<NavItem>
-							<Link to='/profile' className='text-white'>
-								<h3>Profile</h3>
-							</Link>
-						</NavItem>
-						<NavItem>
-							<Link to='/enterprise' className='text-white'>
-								<h3>Enterprise</h3>
-							</Link>
-						</NavItem>
-						<NavItem>
-							<Link to='/timeline' className='text-white'>
-								<h3>Timeline</h3>
-							</Link>
-						</NavItem>
-						<NavItem>
-							<Link to='/review' className='text-white'>
-								<h3>Review</h3>
-							</Link>
-						</NavItem>
+					<Row className='h-100 flex-column align-items-center justify-content-around text-uppercase text-center'>
+						<Link to='/' className='text-white'>
+							<h3>Home</h3>
+						</Link>
+						<Link to='/profile' className='text-white'>
+							<h3>Profile</h3>
+						</Link>
+						<Link to='/enterprise' className='text-white'>
+							<h3>Enterprise</h3>
+						</Link>
+						<Link to='/timeline' className='text-white'>
+							<h3>Timeline</h3>
+						</Link>
+						<Link to='/review' className='text-white'>
+							<h3>Review</h3>
+						</Link>
 					</Row>
 				</NavItem>
 			</Nav>
