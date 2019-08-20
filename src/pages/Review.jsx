@@ -41,9 +41,9 @@ export default class Review extends Component {
 								"Propositions sur les axes d’améliorations/de changement"
 							]}
 							apprentissage={[
-								"Le back c’est pas si mal",
+								"Le back ce n’est pas si mal",
 								"J’ai encore énormément à découvrir et à apprendre pour être compétent",
-								"Je suis pas si mauvais en design (enfin je pense ?)  "
+								"Je ne suis pas si mauvais en design (enfin je pense ?)  "
 							]}
 						/>
 						<ReviewItem

@@ -7,22 +7,25 @@ export default class ReviewHeader extends Component {
 		return (
 			<main>
 				<p className='text-justify'>
-					Je partais avec de très grandes ambitions et attentes pour ce stage, j’en ressors mitigé sur
-					quelques points. Je m’attendais à avoir une super ambiance en cabinet de conseil, je me suis plus
-					rendu compte que l’on est un pion parmi tant d’autres (du moins dans les grands groupes). À
-					contrario, vraiment une super ambiance au sein d’IFS. Alpha, l’équipe était vraiment top et j’ai
-					même pu faire une grande partie de mon stage en anglais puisque mon référent principal sur place
-					était Uruguayen. Le fait que je n’avais personne pour vraiment m’encadrer ni à qui référer à
-					onepoint a probablement joué sur le sentiment de “chacun pour soi”. En matière de conditions de
-					travails, je n’avais dans tous les cas pas lieu de me plaindre, les locaux d'onepoint étant
-					magnifiques et localisés à Trocadéro et ceux d’IFS qui louent 4 étages d’un espace de co-working du
-					côté de Bourse. Les 2 entreprises m’ont fourni du matériel pour travailler.
+					Je partais avec de très grandes ambitions et attentes pour ce stage, j’en ressors satisfait sur de
+					nombreux points. Je m’attendais à avoir une super ambiance en cabinet de conseil et je n'ai pas été
+					déçu, bien que tout le monde vaque un peu à ses occupations et qu'il est parfois difficile de savoir
+					qui est disponible ou non. Une super ambiance également au sein d’IFS. Alpha, l’équipe était
+					vraiment top et j’ai même pu faire une grande partie de mon stage en anglais puisque mon référent
+					principal sur place était Uruguayen. Le fait que je n’avais personne pour vraiment m’encadrer ni à
+					qui référer à onepoint a probablement joué sur le sentiment de que j'ai pu ressentir par moments
+					d'être un peu perdu dans un si grand batiment. En matière de conditions de travail, je n’avais dans
+					tous les cas pas lieu de me plaindre, les locaux d'onepoint étant magnifiques et localisés à
+					Trocadéro et ceux d’IFS qui louent quatre étages d’un espace de co-working du côté de Bourse. Les
+					deux entreprises m’ont fourni du matériel pour travailler.
 				</p>
 
 				<p className='text-justify mb-2'>
-					D’un point de vue technique maintenant j’ai selon moi beaucoup plus appris au sein d’IFS.Alpha. Les
-					profils techniques étaient meilleurs mais surtout bien plus ouverts à la communication et à
-					l’entraide (un autre avantage à travailler en plus petite équipe?). À la BNP j’ai donc pu monter en
+					D’un point de vue technique maintenant j’ai selon moi plus appris au sein d’IFS.Alpha,
+					majoritairement grâce au fait que j'ai travaillé sur un vrai produit. Les profils techniques étaient
+					également plus ouverts à la communication et à l'encadrement (un autre avantage à travailler en plus
+					petite équipe?). Onepoint m'a cependant permis d'avoir une vraie introduction au monde des
+					développeurs et restera ma première vraie expérience React. À la BNP j’ai donc pu monter en
 					compétences sur React (comme onepoint), mais j’ai également vu les ébauches de JAVA et SpringBoot,
 					ainsi qu’AWS. C’est bien au-delà de ce que je visais en matière de niveau technique et je me suis
 					immédiatement retrouvé dépassé et en dehors du coup vu que je n’en avais jamais fait... Encore une
@@ -51,7 +54,7 @@ export default class ReviewHeader extends Component {
 					l’entreprise (que ce soit onepoint ou IFS). Le développement web que l’on apprend en cours
 					correspond aux bases du développement (HTML/CSS/JS) mais ne représente pas un approfondissement
 					poussé. Cependant je cherchais un stage sur un langage qui n’est pas étudié et que j’ai appris de
-					mon cote. Il semble donc logique que la formation ne s’y prête pas tout à fait. Il est vrai que
+					mon côté. Il semble donc logique que la formation ne s’y prête pas tout à fait. Il est vrai que
 					j’aurais aimé voir plus de choses sur cet aspect technique dans la formation, mais cela demande
 					beaucoup de temps, que l’on ne peut accorder si l’on souhaite également être bien formé sur les
 					autres points de la formation (création et vente). Cependant certains fondamentaux auraient pu et
@@ -60,12 +63,16 @@ export default class ReviewHeader extends Component {
 					intéressant, même si, une nouvelle fois, très peu seraient concernés ...
 				</p>
 				<p className='text-justify'>
-					Ce stage a vraiment été très instructif et je ne regrette absolument rien (à part peut-être ma
-					passivité sur les 2/3 premières semaines ou je n’ai au final pas fait grand chose). Il m’a permis de
-					me rendre compte de ce que je veux faire ou pas dans le futur et je pense qu’une entreprise plus
+					Ce stage a vraiment été très instructif et je ne regrette absolument rien. Il m’a permis de me
+					rendre compte de ce que je veux faire ou pas dans le futur et je pense qu’une entreprise plus
 					petite, ou du moins le travail en petite équipe me convient beaucoup plus. Il m’a également permis
 					de découvrir de nouveaux profils et une nouvelle équipe très compétente que j’espère pouvoir
 					rejoindre pour mon alternance de l’an prochain !
+				</p>
+				<p className='text-justify'>
+					Je tiens pour finir a remercier onepoint et IFS.Alpha qui m'ont permit de passer un excellent stage,
+					dans lequel j'ai vraiment beaucoup appris. Je suis reconaissant des chances qui m'ont été offertes
+					et d'avoir pu avoir une première vraie expérience professionelle dans de si belles entreprises !
 				</p>
 			</main>
 		);
