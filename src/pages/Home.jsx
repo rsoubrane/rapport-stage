@@ -1,8 +1,6 @@
-/* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from "react";
 
-import { Container, Row, Col } from "reactstrap";
-import { Link } from "react-router-dom";
+import { Container, Row } from "reactstrap";
 
 import Header from "../components/Header/Header";
 import Article from "../components/Blog/Article";

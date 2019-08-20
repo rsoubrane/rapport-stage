@@ -2,9 +2,7 @@ import React, { Component } from "react";
 
 import ProfileSocials from "./ProfileSocials";
 
-import { Jumbotron, Container, Row, Col } from "reactstrap";
-
-import profile from "../../assets/medias/profile.jpg";
+import { Jumbotron, Row, Col } from "reactstrap";
 
 export default class ProfileCard extends Component {
 	render() {
