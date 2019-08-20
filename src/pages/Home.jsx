@@ -28,7 +28,7 @@ export default class Home extends Component {
 								title='Des projets intéressants ?'
 								description='Venez décvouvrir à quelle sauce le stagiaire a été mangé'
 								picture={project}
-								redirection='/projects'
+								redirection='/timeline'
 							/>
 						</Row>
 						<Article />
