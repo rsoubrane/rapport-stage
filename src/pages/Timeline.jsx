@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import app from "../components/Firebase/app";
+
 import { Container } from "reactstrap";
 
 import Header from "../components/Header/Header";
@@ -21,8 +22,6 @@ export default class Timeline extends Component {
 		let data = app.database().ref("timeline");
 		data.on("value", snapshot => {
 			let timeline = snapshot.val();
-
-			console.log("timeline: ", timeline);
 			this.setState({ timeline });
 		});
 	}
@@ -39,6 +38,7 @@ export default class Timeline extends Component {
 								title={item.name}
 								paragraph1={item.paragraph1}
 								paragraph2={item.paragraph2}
+								points={item.points}
 								languages={item.languages}
 								missions={item.missions}
 								images={item.images}

@@ -18,6 +18,13 @@ export default class TimelineItem extends Component {
 					{this.props.images ? <Carrousel images={this.props.images} /> : null}
 
 					<p className='text-small mt-2 font-weight-light'>{this.props.paragraph2}</p>
+
+					{this.props.points ? (
+						<ul>
+							{this.props.points ? this.props.points.map((item, key) => <li key={key}>{item}</li>) : null}
+						</ul>
+					) : null}
+
 					<div>
 						{this.props.missions ? <p className='card-text mt-2 mb-1'>Missions :</p> : null}
 						<ul>
