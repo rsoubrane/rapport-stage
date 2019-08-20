@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Row, Col, Nav, NavLink, NavItem } from "reactstrap";
+import { Row, Col, Nav, NavItem } from "reactstrap";
 import { Link } from "react-router-dom";
 
 import profile from "../../assets/medias/profile.jpg";
