@@ -34,7 +34,6 @@ export default class Timeline extends Component {
 
 				<Container>
 					<ul className='timeline'>
-						{/* <Timeline /> */}
 						{this.state.timeline.map((item, key) => (
 							<TimelineItem
 								title={item.name}

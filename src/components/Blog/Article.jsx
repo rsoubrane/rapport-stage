@@ -8,8 +8,8 @@ import rooftop from "../../assets/medias/rooftop.jpg";
 export default class Article extends Component {
 	render() {
 		return (
-			<Col md='8' className='blog-main'>
-				<div className='blog-post'>
+			<Col md='8' className='mb-4 border rounded blog-main'>
+				<div className='blog-post m-4'>
 					<h3 className='pb-3 mb-2 font-italic border-bottom'>From the rooftop ...</h3>
 
 					<p className='blog-post-meta'>

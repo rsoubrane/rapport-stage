@@ -10,9 +10,7 @@ export default class TimelineItem extends Component {
 			<main>
 				<li className='timeline-item bg-white rounded ml-3 p-4 shadow'>
 					<div className='timeline-arrow' />
-					<Link to={this.props.redirection}>
-						<h2 className='h5 mb-0'>{this.props.title}</h2>
-					</Link>
+					<h2 className='h4 mb-0 text-primary'>{this.props.title}</h2>
 					<span className='small text-gray'>
 						<i className='fa fa-clock-o mr-1' />
 						{this.props.date}
