@@ -17,7 +17,7 @@ export default class Home extends Component {
 
 				<Container>
 					<Row>
-						<Row className='m-3 w-100'>
+						<Row className='my-3 w-100'>
 							<Post
 								title='Une entreprise en or ?'
 								description="Découvrez-en-plus sur onepoint, l'un des leaders de la transformation digitale"

@@ -19,7 +19,7 @@
 }
 .card-section {
 	position: relative;
-	bottom: 60px;
+	bottom: 100px;
 	padding: 0 40px;
 }
 @media (max-width: 768px) {

@@ -20,7 +20,7 @@ export default class BlogSidebar extends Component {
 					</p>
 				</div>
 
-				<div className='p-3'>
+				<div className=' d-none d-sm-block p-3'>
 					<h4 className='font-italic'>Archives</h4>
 					<ol className='list-unstyled mb-0'>
 						<li>

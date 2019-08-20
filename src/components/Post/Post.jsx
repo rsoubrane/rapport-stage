@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
-import { Row, Col, Card, CardBody } from "reactstrap";
+import { Col, Card } from "reactstrap";
 import { Link } from "react-router-dom";
 
 export default class Post extends Component {
 	render() {
 		return (
-			<Col md='6'>
+			<Col md='6' className='pl-0 '>
 				<Card className='mb-4 box-shadow'>
 					<img
 						className='card-img-right flex-auto d-none d-lg-block'
