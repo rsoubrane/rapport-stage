@@ -9,7 +9,7 @@ export default class ProfileSocials extends Component {
 	render() {
 		return (
 			<Row className='mt-4'>
-				<Col sm='4' className='text-center'>
+				<Col xs='4' className='text-center'>
 					<a
 						href='https://www.linkedin.com/in/rsoubrane/'
 						className='btn btn-lg btn-block btn-linkedin'
@@ -20,18 +20,16 @@ export default class ProfileSocials extends Component {
 						<i className='fa fa-linkedin fa-2x' />
 					</a>
 				</Col>
-				<Col sm='4' className='text-center'>
+				<Col xs='4' className='text-center'>
 					<a
 						href='https://github.com/rsoubrane/'
 						className='btn btn-lg btn-block btn-github'
-						data-toggle='tooltip'
 						target='_blank'
-						data-placement='top'
 						title='GitHub'>
 						<i className='fa fa-github fa-2x' />
 					</a>
 				</Col>
-				<Col sm='4' className='text-center'>
+				<Col xs='4' className='text-center'>
 					<a
 						href='https://twitter.com/EpticRS'
 						className='btn btn-lg btn-block btn-twitter'

@@ -6,9 +6,6 @@
 	height: 100%;
 	margin-bottom: 20px;
 }
-.test {
-	z-index: 10000;
-}
 .page-caption {
 	padding-top: 170px;
 	padding-bottom: 174px;
@@ -24,6 +21,11 @@
 	position: relative;
 	bottom: 60px;
 	padding: 0 40px;
+}
+@media (max-width: 768px) {
+	.card-section {
+		padding: 0;
+	}
 }
 .section-title {
 	margin-bottom: 60px;

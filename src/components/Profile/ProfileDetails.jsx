@@ -19,7 +19,7 @@ export default class ProfileDetails extends Component {
 						<tr>
 							<th>Degree</th>
 							<th>School</th>
-							<th>Graduation Year</th>
+							<th>Graduation</th>
 						</tr>
 					</thead>
 					<tbody>

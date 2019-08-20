@@ -30,6 +30,12 @@ html {
 	flex: 1;
 }
 
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+	color: #824027;
+}
+
 .bg-light {
 	width: 100%;
 }

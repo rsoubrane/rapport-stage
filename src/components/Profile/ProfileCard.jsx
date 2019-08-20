@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import ProfileSocials from "./ProfileSocials";
 
-import { Jumbotron, Row, Col } from "reactstrap";
+import { Jumbotron, Container, Row, Col } from "reactstrap";
 
 import profile from "../../assets/medias/profile.jpg";
 
@@ -10,20 +10,11 @@ export default class ProfileCard extends Component {
 	render() {
 		return (
 			<Jumbotron>
-				<Row className='align-items-center'>
-					<Col xs='9'>
-						<h1 className='display-4 text-center'>Romain Soubrane</h1>
-						<hr />
-						<p className='lead text-center'>Développeur web à onepoint.</p>
-					</Col>
-					<Col xs='3' className='text-center'>
-						<img src={profile} alt='' className='mx-auto rounded-circle img-fluid' />
-						<br />
-					</Col>
-				</Row>
+				<h1 className='display-4 text-center'>Romain Soubrane</h1>
+				<hr />
 
 				<Row className='mt-4'>
-					<Col className='card-text'>
+					<Col xs='12' md='10' className='card-text'>
 						<p className='text-justify'>
 							Passionné par l'univers du digital, je me suis spécialisé dans le développement web et plus
 							précisément le développement JavaScript (React et Node). Ma formation et mes expériences
@@ -33,10 +24,10 @@ export default class ProfileCard extends Component {
 
 						<p>
 							<strong>Code : </strong>
-							<span className='badge bg-success'>HTML/CSS/JS/PHP</span>
-							<span className='badge bg-info'>WordPress</span>
-							<span className='badge bg-primary'>React/Node</span>
-							<span className='badge bg-danger'>Python/JAVA</span>
+							<span className='badge bg-success mr-2'>HTML/CSS/JS/PHP</span>
+							<span className='badge bg-info mr-2'>WordPress</span>
+							<span className='badge bg-primary mr-2'>React/Node</span>
+							<span className='badge bg-danger mr-2'>Python/JAVA</span>
 						</p>
 						<p>
 							<strong>Skills : </strong> Compétences managériales, Capacité décisionnelle, Sens de
