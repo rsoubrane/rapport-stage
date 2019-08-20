@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import app from "../components/Firebase/base";
+import app from "../components/Firebase/app";
 import { Container } from "reactstrap";
 
 import Header from "../components/Header/Header";
