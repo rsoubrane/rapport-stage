@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 
-import { Link } from "react-router-dom";
-
 import Carrousel from "../Carrousel/Carrousel";
 
 export default class TimelineItem extends Component {
