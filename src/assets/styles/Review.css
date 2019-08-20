@@ -1,0 +1,10 @@
+.list1 ul li:before {
+	content: "\efac";
+	font-family: "icofont";
+	color: orange;
+	margin-right: 5px;
+}
+
+.container-reviews {
+	margin-top: -60px !important;
+}
