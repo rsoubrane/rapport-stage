@@ -3,12 +3,10 @@ import React, { Component } from "react";
 
 import { Row, Col } from "reactstrap";
 
-import "../../assets/styles/ProfileSocials.css";
-
 export default class ProfileSocials extends Component {
 	render() {
 		return (
-			<Row className='mt-4'>
+			<Row className='my-4'>
 				<Col xs='4' className='text-center'>
 					<a
 						href='https://www.linkedin.com/in/rsoubrane/'

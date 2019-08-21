@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 
-import "../../assets/styles/ProfileDetails.css";
-
 import { Jumbotron } from "reactstrap";
 
 export default class ProfileDetails extends Component {
 	render() {
 		return (
-			<Jumbotron className='bs-callout bs-callout-danger text-justify'>
+			<Jumbotron className='bg-light mt-4 bs-callout bs-callout-danger text-justify'>
 				<h4>Résumé</h4>
 				<p className='my-4'>
 					A la suite d’une classe préparatoire ingénieur, je me suis tourné vers une formation orientée sur un

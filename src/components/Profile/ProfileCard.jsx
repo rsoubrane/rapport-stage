@@ -7,11 +7,11 @@ import { Jumbotron, Row, Col } from "reactstrap";
 export default class ProfileCard extends Component {
 	render() {
 		return (
-			<Jumbotron>
+			<Jumbotron className='bg-light'>
 				<h1 className='display-4 text-center'>Romain Soubrane</h1>
 				<hr />
 
-				<Row className='mt-4'>
+				<Row className='my-4'>
 					<Col xs='12' md='10' className='card-text'>
 						<p className='text-justify'>
 							Passionné par l'univers du digital, je me suis spécialisé dans le développement web et plus
