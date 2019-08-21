@@ -6,7 +6,7 @@ export default class ReviewItem extends Component {
 	render() {
 		return (
 			<Col>
-				<ul className='timeline'>
+				<ul className='timeline review'>
 					<li className='timeline-item bg-white rounded ml-3 p-4 shadow'>
 						<div className='timeline-arrow' />
 						<h2 className='h4 mb-0 text-primary'>

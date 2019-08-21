@@ -6,14 +6,12 @@ import Header from "../components/Header/Header";
 import ReviewHeader from "../components/Review/ReviewHeader";
 import ReviewItem from "../components/Review/ReviewItem";
 
-import "../assets/styles/Review.css";
-
 export default class Review extends Component {
 	render() {
 		return (
 			<div>
 				<Header title='Point de vue général' />
-				<Container className='card-section timeline page-review'>
+				<Container className='card-section page-review'>
 					<Container className='section-title mb-0 timeline-item bg-white rounded p-4 shadow'>
 						<Row>
 							<Col className='my-2 card-text'>
