@@ -4,8 +4,9 @@ import app from "../components/Firebase/app";
 
 import { Container } from "reactstrap";
 
+import Preloader from "../components/Preloader/Preloader";
+
 import Header from "../components/Header/Header";
-import EnterpriseHeader from "../components/Enterprise/EnterpriseHeader";
 import EnterpriseList from "../components/Enterprise/EnterpriseList";
 import ImageLeft from "../components/Enterprise/ImageLeft";
 import ImageRight from "../components/Enterprise/ImageRight";
@@ -34,35 +35,37 @@ export default class Enterprise extends Component {
 	render() {
 		return (
 			<div>
-				<Header title='Enterprise' />
+				<Header title='Onepoint' />
 
-				<Container className='card-section timeline page-review'>
-					<Container className='section-title mb-0 timeline-item bg-white rounded p-4 shadow'>
-						<EnterpriseHeader />
+				{this.state.enterprise ? (
+					<Container className='card-section timeline page-review mb-0'>
+						<Container className='section-title mb-0 timeline-item bg-light rounded p-4 shadow'>
+							{this.state.enterprise.text ? (
+								<ImageRight picture={onepoint1} text={this.state.enterprise.text.text1} />
+							) : null}
 
-						{this.state.enterprise.text ? (
-							<ImageRight picture={onepoint1} text={this.state.enterprise.text.text1} />
-						) : null}
+							<EnterpriseList
+								title="Principaux secteurs d'activité de onepoint :"
+								sectors={this.state.enterprise.sectors}
+							/>
 
-						<EnterpriseList
-							title="Principaux secteurs d'activité de onepoint :"
-							sectors={this.state.enterprise.sectors}
-						/>
+							{this.state.enterprise.text ? (
+								<ImageLeft picture={onepoint2} text={this.state.enterprise.text.text2} />
+							) : null}
 
-						{this.state.enterprise.text ? (
-							<ImageLeft picture={onepoint2} text={this.state.enterprise.text.text2} />
-						) : null}
+							{this.state.enterprise.text ? (
+								<ImageRight picture={onepoint3} text={this.state.enterprise.text.text3} />
+							) : null}
 
-						{this.state.enterprise.text ? (
-							<ImageRight picture={onepoint3} text={this.state.enterprise.text.text3} />
-						) : null}
-
-						<EnterpriseList
-							title='onepoint s’organise autour de 5 grandes valeurs :'
-							valeurs={this.state.enterprise.valeurs}
-						/>
+							<EnterpriseList
+								title='onepoint s’organise autour de 5 grandes valeurs :'
+								valeurs={this.state.enterprise.valeurs}
+							/>
+						</Container>
 					</Container>
-				</Container>
+				) : (
+					<Preloader />
+				)}
 			</div>
 		);
 	}

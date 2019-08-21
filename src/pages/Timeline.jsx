@@ -7,7 +7,7 @@ import { Container } from "reactstrap";
 import Header from "../components/Header/Header";
 import TimelineItem from "../components/Timeline/TimelineItem";
 
-import "../assets/styles/Timeline.css";
+import Preloader from "../components/Preloader/Preloader";
 
 export default class Timeline extends Component {
 	constructor(props) {
@@ -31,24 +31,28 @@ export default class Timeline extends Component {
 			<main>
 				<Header title='Timeline' />
 
-				<Container>
-					<ul className='timeline'>
-						{this.state.timeline.map((item, key) => (
-							<TimelineItem
-								title={item.name}
-								paragraph1={item.paragraph1}
-								paragraph2={item.paragraph2}
-								points={item.points}
-								languages={item.languages}
-								missions={item.missions}
-								images={item.images}
-								date={item.date}
-								redirection='/timeline'
-								key={key}
-							/>
-						))}
-					</ul>
-				</Container>
+				{this.state.timeline ? (
+					<Container>
+						<ul className='timeline'>
+							{this.state.timeline.map((item, key) => (
+								<TimelineItem
+									title={item.name}
+									paragraph1={item.paragraph1}
+									paragraph2={item.paragraph2}
+									points={item.points}
+									languages={item.languages}
+									missions={item.missions}
+									images={item.images}
+									date={item.date}
+									redirection='/timeline'
+									key={key}
+								/>
+							))}
+						</ul>
+					</Container>
+				) : (
+					<Preloader />
+				)}
 			</main>
 		);
 	}
