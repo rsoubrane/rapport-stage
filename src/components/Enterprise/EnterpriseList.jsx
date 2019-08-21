@@ -5,8 +5,8 @@ import { Row, Col } from "reactstrap";
 export default class EnterpriseList extends Component {
 	render() {
 		return (
-			<Row className='my-5 bg-light'>
-				<Col className='pt-4' md={{ size: 8, offset: 2 }}>
+			<Row className='my-5 bg-white'>
+				<Col className='pt-4' xs={{ size: 10, offset: 1 }} md={{ size: 8, offset: 2 }}>
 					<h6 className='text-left text-uppercase'>
 						<strong className='text-center'>{this.props.title}</strong>{" "}
 					</h6>

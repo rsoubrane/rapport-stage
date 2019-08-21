@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class EnterpriseHeader extends Component {
 	render() {
 		return (
-			<div className='position-relative overflow-hidden p-3 p-md-5 text-center bg-light'>
+			<div className='position-relative overflow-hidden w-100 text-center bg-light'>
 				<div className='col-md-8 mx-auto my-5'>
 					<h1 className='display-4 font-weight-normal'>Onepoint</h1>
 					<p className='lead font-weight-normal'>
