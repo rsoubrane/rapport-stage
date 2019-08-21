@@ -8,7 +8,7 @@ import profile from "../../assets/medias/profile.jpg";
 export default class Sidebar extends Component {
 	render() {
 		return (
-			<Nav vertical className='sidebar bg-white'>
+			<Nav vertical className='sidebar bg-white py-3 py-md-0'>
 				<NavItem className='d-none d-md-block align-items-center flex-grow-0 py-4 px-3 pl-md-4 mb-4 bg-light'>
 					<Row className='sidebar-header media d-flex align-items-center justify-content-between'>
 						<Col md='12' xl='5'>
@@ -32,21 +32,31 @@ export default class Sidebar extends Component {
 				</NavItem>
 
 				<NavItem className='d-block'>
-					<Row className='h-100 flex-column align-items-center justify-content-around text-uppercase text-center'>
-						<Link to='/' className='text-white'>
-							<h3>Home</h3>
+					<Row className='h-100 flex-column align-items-center justify-content-around text-uppercase text-center text-decoration-none'>
+						<Link to='/' className='text-white sidebar-item active'>
+							<h3>
+								<strong>Home</strong>
+							</h3>
 						</Link>
-						<Link to='/profile' className='text-white'>
-							<h3>Profile</h3>
+						<Link to='/profile' className='text-white sidebar-item'>
+							<h3>
+								<strong>Profile</strong>
+							</h3>
 						</Link>
-						<Link to='/enterprise' className='text-white'>
-							<h3>Enterprise</h3>
+						<Link to='/enterprise' className='text-white sidebar-item'>
+							<h3>
+								<strong>Enterprise</strong>
+							</h3>
 						</Link>
-						<Link to='/timeline' className='text-white'>
-							<h3>Timeline</h3>
+						<Link to='/timeline' className='text-white sidebar-item'>
+							<h3>
+								<strong>Timeline</strong>
+							</h3>
 						</Link>
-						<Link to='/review' className='text-white'>
-							<h3>Review</h3>
+						<Link to='/review' className='text-white sidebar-item'>
+							<h3>
+								<strong>Review</strong>
+							</h3>
 						</Link>
 					</Row>
 				</NavItem>
