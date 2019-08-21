@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 export default class Post extends Component {
 	render() {
 		return (
-			<Col md='6' className='pl-0 '>
+			<Col md='6' className='px-3'>
 				<Card className='mb-4 box-shadow'>
 					<img
 						className='card-img-right flex-auto d-none d-lg-block'
 						alt='Thumbnail'
-						style={{ width: "100%", height: "225px", display: "block" }}
+						style={{ width: "100%", height: "275px", display: "block" }}
 						src={this.props.picture}
 					/>
 					<div className='card-body'>
