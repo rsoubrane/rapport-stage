@@ -16,7 +16,7 @@ export default class Article extends Component {
 						August 20, 2019 by <Link to='/profile'>Romain</Link>
 					</p>
 
-					<p>
+					<p className='text-justify'>
 						Encore trois jours. trois jours et mon stage touchera à sa fin. J'aurais passé près de 5 mois
 						dans les locaux magnifiques de onepoint (mais pas que !) et cette expérience fut, tout aussi
 						intense qu'instructive. Qui dit fin de stage dit également rapport de stage et compte-rendu
@@ -28,7 +28,7 @@ export default class Article extends Component {
 					<img src={rooftop} className='w-100 mt-2 mb-3' alt='Rooftop' />
 
 					<blockquote>
-						<p>
+						<p className='text-justify'>
 							Pour être en mesure de faire un bilan de mon stage il faut d’abord que j’aborde les
 							différents <Link to='/timeline'>projets</Link> sur lesquels j’ai eu la chance de travailler
 							que ce soit à onepoint ou ailleurs.

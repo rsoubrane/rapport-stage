@@ -8,7 +8,7 @@ export default class BlogSidebar extends Component {
 	render() {
 		return (
 			<aside className='col-md-4 blog-sidebar'>
-				<div className='p-3 mb-3 bg-light rounded'>
+				<div className='p-3 mb-3 bg-light hide rounded'>
 					<h4 className='font-italic'>About</h4>
 					<p className='mb-0 text-justify'>
 						Romain est un élève de l'École Supérieure du Digital qui devait réaliser un stage en immersion
@@ -16,11 +16,11 @@ export default class BlogSidebar extends Component {
 						office de rapport de stage !
 					</p>
 					<p className='mb-0'>
-						<Link to='/timeline'>En lire plus...</Link>
+						<Link to='/profile'>En lire plus...</Link>
 					</p>
 				</div>
 
-				<div className=' d-none d-sm-block p-3'>
+				<div className='bg-light hide rounded d-block pt-4 pb-3 px-3'>
 					<h4 className='font-italic'>Archives</h4>
 					<ol className='list-unstyled mb-0'>
 						<li>
@@ -30,9 +30,8 @@ export default class BlogSidebar extends Component {
 							<Link to='/'>2018</Link>
 						</li>
 					</ol>
+					<BlogSocials />
 				</div>
-
-				<BlogSocials />
 			</aside>
 		);
 	}

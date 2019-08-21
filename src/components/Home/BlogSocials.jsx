@@ -4,7 +4,7 @@ import React, { Component } from "react";
 export default class BlogSocials extends Component {
 	render() {
 		return (
-			<div className='p-3'>
+			<div className='pt-3'>
 				<h4 className='font-italic'>Socials</h4>
 				<ol className='list-unstyled'>
 					<li>
